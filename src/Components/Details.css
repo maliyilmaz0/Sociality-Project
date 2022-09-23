@@ -1,0 +1,22 @@
+.icon {
+    height: 55px;
+    box-shadow: 0px 0px 2px 1px rgb(209, 209, 209);
+    border-radius: 4px;
+    /* outline-style: solid;
+    outline-color: rgb(209, 209, 209);
+    outline-width: 2px; */
+}
+.detail {
+    display: flex;
+}
+.companyName{
+    margin-left: 18px;
+    font-family: Consolas,monospace;
+    margin-top: 6px;
+}
+.dateTime{
+    padding-top: 3px;
+    padding-left: 18px;
+    font-family: Consolas,monospace;
+    color:rgba(172, 172, 172, 0.767)
+}

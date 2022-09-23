@@ -1,0 +1,85 @@
+.home {
+  display: grid;
+  grid-template-columns: 360px 50px;
+  flex-direction: row;
+  height: 100vh;
+}
+.container {
+  padding: 0px;
+  margin: 2rem auto;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.items {
+  display: grid;
+  grid-template-columns: 450px 450px 450px;
+}
+.dateText {
+  color: #959595;
+  font-size: 22px;
+  width: 120px;
+}
+.redDot {
+  background-color: #af1e1e;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 7px;
+}
+.greenDot {
+  background-color: #3ac183;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 7px;
+}
+.grayDot {
+  background-color: #acacac;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  margin-top: 7px;
+}
+.blueDot {
+  background-color: #0c40a1;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 7px;
+}
+.yellowDot {
+  background-color: #f7bf38;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 7px;
+}
+.topItemList {
+  display: flex;
+  flex-direction: row;
+  width: 90vh;
+}
+.dotTextDesign {
+  display: flex;
+  flex-direction: row;
+}
+.dotText {
+  margin-top: 2px;
+  margin-left: 6px;
+  font-family: Raleway, Bold;
+}
+.topList{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.userImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
