@@ -82,7 +82,6 @@ const SideBar = () => {
           </div>
           <div className="company_details">
             <DropDown />
-            <div>Hi</div>
           </div>
         </div>
       </div>
